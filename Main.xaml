@@ -1,0 +1,204 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="2155,1862" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="528,1797" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="dtPalavras" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="486,87" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="palavras" WorkbookPath="input\Traduzir.xlsx">
+      <ui:ReadRange.DataTable>
+        <OutArgument x:TypeArguments="sd:DataTable">
+          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">dtPalavras</mca:CSharpReference>
+        </OutArgument>
+      </ui:ReadRange.DataTable>
+    </ui:ReadRange>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Google Tradutor" sap:VirtualizedContainerService.HintSize="486,1578" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4b71add-742e-4930-9b4d-f1313c2133b6" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,1361" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="410,1113" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Row" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,937" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="traducao" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+                      <ui:LogMessage.Message>
+                        <InArgument x:TypeArguments="x:Object">
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">"Traduzir palavra " + Row["Português"].ToString()</mca:CSharpValue>
+                        </InArgument>
+                      </ui:LogMessage.Message>
+                    </ui:LogMessage>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TEXTAREA'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="c4b71add-742e-4930-9b4d-f1313c2133b6" Version="V1">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://translate.google.com.br/?hl=pt-BR" DesignTimeRectangle="157, 621, 1002, 148" ElementType="InputBox" FriendlyName="'TEXTAREA'" FullSelectorArgument="&lt;webctrl tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' aaname='' /&gt;" Guid="6ea1e41c-c8f2-4e3b-ae2f-22898c8ea200" ImageBase64="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" InformativeScreenshot="f1026b09cd849a0b798bfce1728377a5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Tradutor' /&gt;" SearchSteps="FuzzySelector, Image" />
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">Row["Português"].ToString()</mca:CSharpValue>
+                        </InArgument>
+                      </uix:NTypeInto.Text>
+                    </uix:NTypeInto>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4b71add-742e-4930-9b4d-f1313c2133b6" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://translate.google.com.br/?hl=pt-BR&amp;sl=pt&amp;tl=en&amp;text=teste&amp;op=translate" DesignTimeRectangle="2131, 809, 96, 96" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl aaname='content_copy' css-selector='body&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;button' parentid='ow182' tag='BUTTON' /&gt;&lt;webctrl isleaf='1' parentid='ow182' tag='DIV' idx='2' /&gt;" FuzzyAccuracy="0.65" FuzzySelectorArgument="&lt;webctrl aaname='content_copy' parentid='ow182' tag='BUTTON' /&gt;&lt;webctrl isleaf='1' parentid='ow182' tag='DIV' type='' aaname='' /&gt;" Guid="dc7ad74c-d8c8-4524-be47-5f068e17cb86" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAHrSURBVHhe7dxBSwJRGEbh/mlECNUiiEqSon0EGVER9OcyU3MruL5xF4WFMXzgfHOis3hWyrzDPasBx63lclnEYRAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBKbTIC+jUbm6Hpad3kHZ3t1rzdHJoEwm07X3QNNZkNHotZyeXaw9wE0zSIPFYlGGd49rD68NBmnwPp+X/uBy7eG1wSAN6uHUQ/qLB9Y2g8AYBMYgMOgg4/FbeXh6Lr39w6/vblq9dt2oWz/3u4ANkvmcUtWturl6D11ABsl+TvlUN+v26r1mQwaZzmbluH/+7bAy1M26vXqv2ZBBmj7flKydCIMk7EQYJGEnwiAJOxEGSdiJMEjCToRBEnYiDJKwE2GQhJ0IgyTsRBgkYSfCIAk7EQZJ2IkwSMJOhEESdiIMkrATYZCEnQiDJOxEGCRhJ8IgCTsRnQRpYhAYg8AYBMYgMAaBMQiMQWAMAuOPrWF8HQHIF3aA6mtmN7f3rf71Rr123fjXr7TpdwaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBMQiMQVCW5QOREaPibbGZMQAAAABJRU5ErkJggg==" InformativeScreenshot="71586866fde4261cbb07c34b552dea40.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Tradutor' /&gt;" SearchSteps="FuzzySelector, Image" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ui:GetFromClipboard TimeoutMS="{x:Null}" DisplayName="Get From Clipboard" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="GetFromClipboard_1">
+                      <ui:GetFromClipboard.Result>
+                        <OutArgument x:TypeArguments="x:String">
+                          <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">traducao</mca:CSharpReference>
+                        </OutArgument>
+                      </ui:GetFromClipboard.Result>
+                    </ui:GetFromClipboard>
+                    <Assign sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="Assign_1">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Object">
+                          <mca:CSharpReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">Row["English"]</mca:CSharpReference>
+                        </OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Object">
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">traducao</mca:CSharpValue>
+                        </InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+                      <ui:LogMessage.Message>
+                        <InArgument x:TypeArguments="x:Object">
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">"Traduzida para " + traducao</mca:CSharpValue>
+                        </InArgument>
+                      </ui:LogMessage.Message>
+                    </ui:LogMessage>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+              <ui:ForEachRow.DataTable>
+                <InArgument x:TypeArguments="sd:DataTable">
+                  <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">dtPalavras</mca:CSharpValue>
+                </InArgument>
+              </ui:ForEachRow.DataTable>
+            </ui:ForEachRow>
+            <ui:WriteRange AddHeaders="False" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="410,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="palavras" StartingCell="A2" WorkbookPath="input\Traduzir.xlsx">
+              <ui:WriteRange.DataTable>
+                <InArgument x:TypeArguments="sd:DataTable">
+                  <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">dtPalavras</mca:CSharpValue>
+                </InArgument>
+              </ui:WriteRange.DataTable>
+            </ui:WriteRange>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-13, -13, 2586, 1546" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAI/SURBVDhPhZLLaxNRFIdn5cL/yZXQR5o22lYs2E2hRdyIC8GFoLEE8mxSfCRtzMK2NCDUmGJJ22xi0QYSGyoTk8zkMXknUAWnTmbl4ue5M5lQtLUHftxhuN93z5w73G2vHJpeVjDlU3CTxavgBsWypGDG1bjGXVYMnF5WMUWZZPGpJFJJosJiP1nrb7u4JklwLkyZcH//bbXmrvS3nl+sbQP+W2BZUvF8qyqIYulDtVrdbjab0Xq9GZWkerRWq73P58szHPtmBt4NqUiLMqSWjMOcrL2bIMH90An4bAGtVhvdbhedTkdLu90GCcGxgbETvxD8bIuGR8+zfh0e97Auevh4yEMQSxr0j2CCps2geventr7YVSDUZXyTZE1gpqxEy+D5HOafujTQSKPRIIGHXZneweI7RTvZFlGQ4E812OxWccdThGNlA55QGM7QJh75gngZjuiCcRIwaP61ipQgo9aVSXaKudWeBo9R2CGBzRg+pzJYj+wglvhEM2npArNbGbQ6CEEGbHL1MErxhXk89gZh879BqVQC3YouGHMpA+AseBYedfZwL9DAQ4cftsAaBEFApVKBJEngTCQwAAMagH14hGJyyogn0tiOJ2APrqNYLKFcLoMbWvzxasTxC0aG+xmy6yuDhx16NvbLKBQEHCRTEEVRF/yvrNajq9dvxcBimdtH4uArtS9qMJvDpQJWCw/iNfPsHnZ2j5DN5rQODAFLf9vF9cSxt/A2kkQmc0w/Uxb5fJ4kBW2QyfTx6h8fcX0dWzi39AAAAABJRU5ErkJggg==" InformativeScreenshot="869b2386b5155cb00ccdda4d047094f8.png" Selector="&lt;html app='chrome.exe' title='Google Tradutor'/&gt;" Url="https://translate.google.com.br/?hl=pt-BR" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
